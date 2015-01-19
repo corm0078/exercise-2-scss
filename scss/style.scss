@@ -1,0 +1,10 @@
+/*this file imports all of your scss partials to be compiled into one stylesheet, which you can then attach to your html. all files that are previxed with and underscore "_name of file.scss" are called partials-meaning their css inst compiled unless its imported into an unprefixed .scss file*/
+
+//import variables, mixing and other modules
+@import "base";
+@import "mixins";
+
+//components rules
+@import "components/main";
+
+//
